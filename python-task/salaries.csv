@@ -1,0 +1,300 @@
+work_year,job_title,salary
+2023,Principal Data Scientist,80000
+2023,ML Engineer,30000
+2022,ML Engineer,25500
+2023,Data Scientist,175000
+2023,Data Scientist,120000
+2023,Applied Scientist,222200
+2023,Applied Scientist,136000
+2023,Data Scientist,219000
+2023,Data Scientist,141000
+2023,Data Scientist,147100
+2023,Data Scientist,90700
+2023,Data Analyst,130000
+2023,Data Analyst,100000
+2023,Applied Scientist,213660
+2023,Applied Scientist,130760
+2023,Data Modeler,147100
+2023,Data Modeler,90700
+2023,Data Scientist,170000
+2022,Data Scientist,150000
+2023,Data Analyst,150000
+2023,Data Analyst,110000
+2023,Research Engineer,275000
+2023,Research Engineer,174000
+2023,Analytics Engineer,230000
+2023,Analytics Engineer,143200
+2023,Business Intelligence Engineer,225000
+2023,Business Intelligence Engineer,156400
+2023,Machine Learning Engineer,200000
+2023,Machine Learning Engineer,130000
+2023,Data Strategist,90000
+2023,Data Strategist,72000
+2023,Data Engineer,253200
+2023,Data Engineer,90700
+2023,Computer Vision Engineer,342810
+2023,Computer Vision Engineer,184590
+2023,Data Engineer,162500
+2023,Data Engineer,130000
+2023,Data Analyst,105380
+2023,Data Analyst,64500
+2023,Data Quality Analyst,100000
+2023,Compliance Data Analyst,30000
+2022,Machine Learning Engineer,1650000
+2022,Applied Scientist,204620
+2023,Applied Scientist,110680
+2023,Data Engineer,270703
+2023,Data Engineer,221484
+2023,Data Scientist,212750
+2023,Data Scientist,185000
+2023,Data Scientist,262000
+2023,Data Scientist,245000
+2023,Data Scientist,275300
+2023,Data Scientist,183500
+2023,Data Scientist,218500
+2023,Data Scientist,199098
+2023,Data Engineer,203300
+2023,Data Engineer,123600
+2023,Research Engineer,189110
+2022,Research Engineer,139000
+2023,Data Scientist,258750
+2023,Data Scientist,185000
+2023,Data Engineer,231500
+2023,Data Engineer,166000
+2023,Data Scientist,172500
+2023,Data Scientist,110500
+2023,Data Engineer,238000
+2023,Data Engineer,176000
+2023,Data Engineer,237000
+2023,Data Engineer,201450
+2023,Applied Scientist,309400
+2023,Applied Scientist,159100
+2023,Data Engineer,115000
+2023,Data Engineer,81500
+2022,Data Scientist,237000
+2023,Data Scientist,201450
+2023,Computer Vision Engineer,280000
+2023,Computer Vision Engineer,210000
+2023,Data Architect,280100
+2023,Data Architect,168100
+2023,Data Engineer,193500
+2023,Data Engineer,139000
+2023,Data Scientist,510000
+2023,Machine Learning Engineer,150000
+2023,Applied Machine Learning Engineer,65000
+2022,AI Developer,300000
+2023,Machine Learning Engineer,90000
+2023,Business Intelligence Engineer,185900
+2023,Business Intelligence Engineer,129300
+2022,Data Engineer,225000
+2023,Data Engineer,175000
+2023,Data Engineer,185000
+2023,Data Engineer,140000
+2023,Data Scientist,45000
+2023,Data Scientist,36000
+2023,Data Scientist,105000
+2023,Data Scientist,70000
+2023,Machine Learning Engineer,163196
+2023,Machine Learning Engineer,145885
+2023,Data Engineer,217000
+2023,Data Engineer,185000
+2023,Data Analyst,202800
+2023,Data Analyst,104300
+2023,Data Analyst,145000
+2023,Data Analyst,65000
+2023,Data Engineer,165000
+2023,Data Engineer,132300
+2023,Data Engineer,179170
+2023,Data Engineer,94300
+2023,Analytics Engineer,152500
+2023,Analytics Engineer,116450
+2023,Data Engineer,247300
+2023,Data Engineer,133800
+2023,Research Engineer,203000
+2023,Research Engineer,133000
+2023,Research Scientist,220000
+2022,Machine Learning Engineer,54000
+2023,Data Scientist,150000
+2023,Data Scientist,120000
+2023,Analytics Engineer,289800
+2023,Analytics Engineer,214000
+2023,Analytics Engineer,179820
+2023,Analytics Engineer,143860
+2023,Machine Learning Engineer,283200
+2023,Machine Learning Engineer,188800
+2023,Analytics Engineer,289800
+2023,Analytics Engineer,214200
+2023,Data Engineer,185900
+2023,Data Engineer,129300
+2023,Data Engineer,252000
+2023,Data Engineer,129000
+2022,Data Analytics Manager,155000
+2023,Data Analytics Manager,140000
+2023,Data Engineer,161800
+2023,Data Engineer,141600
+2023,Machine Learning Engineer,342300
+2023,Machine Learning Engineer,176100
+2023,Data Engineer,100000
+2023,Data Engineer,70000
+2023,Data Engineer,85000
+2023,Data Engineer,65000
+2023,Data Scientist,138784
+2023,Data Scientist,83270
+2023,Data Analyst,75000
+2023,Data Analyst,70000
+2023,Data Analyst,204500
+2022,Data Analyst,138900
+2023,Machine Learning Engineer,318300
+2023,Machine Learning Engineer,212200
+2023,Data Engineer,95000
+2023,Data Engineer,75000
+2023,Data Scientist,195000
+2023,Data Scientist,160000
+2023,Analytics Engineer,230000
+2023,Analytics Engineer,143200
+2023,Data Engineer,100000
+2023,Data Engineer,70000
+2023,Business Data Analyst,105000
+2023,Applied Data Scientist,1700000
+2023,Data Analyst,38000
+2023,Data Analyst,35000
+2023,Data Engineer,145000
+2023,Data Engineer,115000
+2023,Data Analyst,168400
+2023,Data Analyst,105200
+2023,Applied Scientist,309400
+2023,Applied Scientist,159100
+2023,Machine Learning Engineer,190000
+2023,Machine Learning Engineer,150000
+2023,Data Engineer,162500
+2023,Data Engineer,130000
+2023,Analytics Engineer,150000
+2023,Analytics Engineer,120000
+2022,Data Engineer,145000
+2023,Data Engineer,120000
+2023,Applied Scientist,222200
+2023,Applied Scientist,136000
+2023,Data Analyst,45000
+2023,Data Analyst,35000
+2023,Data Engineer,241000
+2023,Data Engineer,155000
+2023,Data Engineer,220000
+2023,Data Engineer,190000
+2023,Data Scientist,55000
+2023,Data Scientist,45000
+2020,Staff Data Analyst,15000
+2023,ETL Engineer,70000
+2023,ETL Engineer,47500
+2022,Data Analyst,85000
+2023,Data Analyst,75000
+2023,Data Engineer,160000
+2023,Data Engineer,140000
+2023,Machine Learning Engineer,300000
+2023,Machine Learning Engineer,250000
+2023,Data Scientist,228000
+2023,Data Scientist,186000
+2023,Data Scientist,190000
+2023,Data Scientist,170000
+2023,Research Engineer,230000
+2023,Research Engineer,200000
+2023,Data Architect,180000
+2023,Data Architect,115000
+2023,Data Architect,200000
+2023,Data Architect,115000
+2023,Data DevOps Engineer,50000
+2023,Data Engineer,220000
+2022,Data Engineer,205000
+2023,Data Engineer,180000
+2023,Data Engineer,130000
+2023,Data Engineer,200000
+2023,Data Engineer,150000
+2023,Computer Vision Engineer,215000
+2023,Computer Vision Engineer,170000
+2023,Machine Learning Engineer,247500
+2023,Machine Learning Engineer,172200
+2023,Data Scientist,224000
+2023,Data Scientist,176000
+2023,Data Analyst,120000
+2023,Data Analyst,75000
+2023,Data Engineer,1400000
+2023,Applied Data Scientist,100000
+2023,AI Developer,100000
+2022,Data Analyst,140000
+2023,Data Analyst,120000
+2023,Data Engineer,128000
+2023,Data Engineer,81500
+2023,Data Engineer,145000
+2022,Data Engineer,115000
+2023,Data Engineer,185000
+2023,Data Engineer,140000
+2023,Head of Data,329500
+2023,Head of Data,269600
+2023,Data Quality Analyst,100000
+2023,Data Quality Analyst,80000
+2023,Data Scientist,250000
+2023,Data Scientist,162500
+2023,AI Developer,200000
+2023,Data Engineer,145000
+2023,Data Engineer,100000
+2023,Data Engineer,145000
+2023,Data Engineer,115000
+2023,Data Scientist,203500
+2023,Data Scientist,152000
+2023,Data Scientist,239000
+2023,Data Scientist,122900
+2023,Data Scientist,237000
+2023,Data Scientist,145000
+2023,Data Science Manager,191765
+2023,Data Science Manager,134236
+2023,Analytics Engineer,190000
+2023,Analytics Engineer,112000
+2022,Data Scientist,84000
+2023,Data Engineer,85000
+2023,Data Engineer,65000
+2023,Data Analyst,135000
+2023,Data Analyst,105500
+2023,Research Engineer,293000
+2023,Research Engineer,185000
+2023,Data Analyst,80000
+2023,Data Analyst,70000
+2023,Data Engineer,220000
+2023,Data Engineer,160000
+2023,Data Scientist,175000
+2023,Data Scientist,145000
+2023,Data Analyst,200000
+2023,Data Analyst,148500
+2023,Data Scientist,45000
+2023,Data Scientist,36000
+2023,Data Engineer,240500
+2023,Data Engineer,123700
+2023,Analytics Engineer,152900
+2023,Analytics Engineer,117100
+2023,Analytics Engineer,173000
+2023,Analytics Engineer,113000
+2023,Applied Scientist,260000
+2023,Applied Scientist,136000
+2023,Data Engineer,175000
+2023,Data Engineer,110000
+2023,Applied Scientist,260000
+2023,Applied Scientist,136000
+2023,Research Scientist,130000
+2023,Research Scientist,110000
+2023,Applied Scientist,205000
+2023,Applied Scientist,184000
+2023,Data Analyst,149500
+2022,Data Analyst,127075
+2023,Data Scientist,195000
+2023,Data Scientist,160000
+2023,Data Engineer,219535
+2023,Data Engineer,146115
+2023,Data Scientist,170000
+2023,Data Scientist,135000
+2023,Data Scientist,175000
+2023,Data Scientist,145000
+2023,Data Scientist,199000
+2023,Data Scientist,162000
+2023,Applied Scientist,222200
+2023,Applied Scientist,136000
+2023,Analytics Engineer,221000
+2023,Analytics Engineer,153000
+2023,Data Analyst,187000
