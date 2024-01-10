@@ -312,6 +312,112 @@ def twelve():
 # twelve()
 
 def thirteen():
-    
+    from sqlalchemy import create_engine, Column, Integer, TIMESTAMP, JSON
+    from sqlalchemy.ext.declarative import declarative_base
+    from sqlalchemy.orm import sessionmaker
 
+    Base = declarative_base()
+
+    class AttributeIssueCount(Base):
+        __tablename__ = 'attribute_issue_count'
+        issue_count_id = Column(Integer, primary_key=True)
+        tenant_id = Column(Integer, nullable=False)
+        integration_id = Column(Integer, nullable=False)
+        meta_data_id = Column(Integer, nullable=False)
+        created_month = Column(TIMESTAMP, nullable=False)
+        issue_count = Column(Integer, nullable=False)
+        issue_details = Column(JSON, nullable=False)
+        data_set_id = Column(Integer, nullable=False)
+        env_id = Column(Integer, nullable=False)
+
+    class DatasetIssueCount(Base):
+        __tablename__ = 'dataset_issue_count'
+        issue_count_id = Column(Integer, primary_key=True)
+        tenant_id = Column(Integer, nullable=False)
+        integration_id = Column(Integer, nullable=False)
+        data_set_id = Column(Integer, nullable=False)
+        created_month = Column(TIMESTAMP, nullable=False)
+        issue_count = Column(Integer, nullable=False)
+        issue_details = Column(JSON, nullable=False)
+        env_id = Column(Integer, nullable=False)
+
+    class DatasourceIssueCount(Base):
+        __tablename__ = 'datasource_issue_count'
+        issue_count_id = Column(Integer, primary_key=True)
+        tenant_id = Column(Integer, nullable=False)
+        env_id = Column(Integer, nullable=False)
+        integration_id = Column(Integer, nullable=False)
+        created_month = Column(TIMESTAMP, nullable=False)
+        issue_count_dataset_level = Column(Integer, nullable=False)
+        issue_details_dataset_level = Column(JSON, nullable=False)
+        issue_count_attribute_level = Column(Integer, nullable=False)
+        issue_details_attribute_level = Column(JSON, nullable=False)
+
+    # Database connection parameters
+    mysql_url = 'mysql+mysqlconnector://root:12345@localhost:3306/task'
+    print("Successfully connected to the database!...")
+    engine = create_engine(mysql_url)   #echo=True -->used to log SQL statements.
+
+
+    # Create a session to interact with the database
+    Session = sessionmaker(bind=engine)
+    session = Session()
+
+    # Insert records into attribute_issue_count table
+    attribute_records = [
+        (1664, 2566, 322384, '2023-11-01 00:00:00.000000', 1, '{"44961": 1}', 55396, 1485),
+        # Add other records here
+    ]
+
+    for record in attribute_records:
+        session.add(AttributeIssueCount(*record))
+
+    # Insert records into dataset_issue_count table
+    dataset_records = [
+        (1664, 2566, 55396, '2023-11-01 00:00:00.000000', 3, '{"44961": 1, "44967": 1, "44982": 1}', 1485),
+        # Add other records here
+    ]
+
+    for record in dataset_records:
+        session.add(DatasetIssueCount(*record))
+
+    # Commit changes to the database
+    session.commit()
+
+    # Aggregate data and insert into datasource_issue_count table
+    integration_ids = [322384, 322386, 322388, 322382, 322383, 322385, 322387, 322393]  # Add integration_ids
+
+    for integration_id in integration_ids:
+        attribute_data = session.query(AttributeIssueCount).filter_by(integration_id=integration_id).all()
+        dataset_data = session.query(DatasetIssueCount).filter_by(integration_id=integration_id).all()
+
+        total_issue_count_dataset = sum(entry.issue_count for entry in dataset_data)
+        total_issue_details_dataset = {str(k): v for entry in dataset_data for k, v in entry.issue_details.items()}
+
+        total_issue_count_attribute = sum(entry.issue_count for entry in attribute_data)
+        total_issue_details_attribute = {str(k): v for entry in attribute_data for k, v in entry.issue_details.items()}
+
+        # Insert into datasource_issue_count table
+        session.add(DatasourceIssueCount(
+            tenant_id=1664,
+            env_id=1485,
+            integration_id=integration_id,
+            created_month='2023-11-01 00:00:00.000000',
+            issue_count_dataset_level=total_issue_count_dataset,
+            issue_details_dataset_level=total_issue_details_dataset,
+            issue_count_attribute_level=total_issue_count_attribute,
+            issue_details_attribute_level=total_issue_details_attribute
+        ))
+
+    # Commit changes to the database
+    session.commit()
+
+    # Query and print the result from datasource_issue_count table
+    result = session.query(DatasourceIssueCount).all()
+    for entry in result:
+        print(entry.tenant_id, entry.env_id, entry.integration_id, entry.created_month,
+            entry.issue_count_dataset_level, entry.issue_details_dataset_level,
+            entry.issue_count_attribute_level, entry.issue_details_attribute_level)
+
+thirteen()
 

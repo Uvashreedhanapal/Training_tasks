@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript async/await Functions</h1>
+
+
+<script>
+//this func returns promise
+let result=function(score){
+    return new Promise(function(resolve,reject){
+        console.log("Calculating results...")
+        if (score>50)
+            resolve("Congrats! you have passed")
+        else
+            reject("You have failed:)")
+    })
+}
+let grade=function(response){
+    return new Promise(function(resolve,reject){
+        console.log("calculating your grade...")
+        resolve("your grade is A  "+response)
+    })
+}
+async function CalculateResults(){
+    try{
+        const response=await result(80)
+        //await keyword to wait for the Promise to be resolved or rejected.
+        console.log("result received")
+        const finalgrade=await grade(response)
+        console.log(finalgrade)
+    }
+    catch(err){
+        console.log(err)
+    }
+}
+CalculateResults()
+
+
+//result(80).then(response=>{
+    //console.log("Results received..")
+    //return grade(response)
+//}).then(finalgrade =>{
+    //console.log("finalgrade")
+//}).catch(err=>{
+    //console.log(err)
+//})
+</script>
+
+</body>
+</html>
