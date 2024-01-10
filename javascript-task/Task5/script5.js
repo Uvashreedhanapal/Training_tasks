@@ -19,7 +19,7 @@ class Mathoperation{
     }
   }
   
-  // Create an instance of the  class
+  // Create object
   const mathoperation = new Mathoperation();
   
   // Function to update num1 and num2 from input fields

@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #050202;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr {
+    background-color: #f5dfdf;
+  }
