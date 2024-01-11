@@ -1,3 +1,4 @@
+<p style="text-align: justify;"> 
 Java script :
 Number methods
 
@@ -232,3 +233,4 @@ jQuery
         myText = $("#02").text();
 
     JavaScript objects are written with curly braces {}.
+</p>
