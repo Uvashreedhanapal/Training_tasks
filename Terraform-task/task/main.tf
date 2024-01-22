@@ -5,17 +5,7 @@ provider "google" {
   region      = "us-central1"
 }
 
-# 4 Try static and dynamic values passing for the variables that will be used by the resource during creationtime.
-variable "bucket_name" {
-  type    = string
-  default = "uvash_bucket"
-}
 
-# 4
-variable "bucket_location" {
-  type    = string
-  default = "US"
-}
 
 # 1 Create any one resource using terraform in any cloud.
 resource "google_storage_bucket" "my_bucket" {
