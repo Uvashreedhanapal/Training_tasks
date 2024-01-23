@@ -17,7 +17,6 @@ resource "google_storage_bucket" "my_bucket" {
 # 3 Try to use depends on module in code.
 data "terraform_remote_state" "store" {
   depends_on = [google_storage_bucket.my_bucket]
-
   backend = "gcs"
 
   config = {
